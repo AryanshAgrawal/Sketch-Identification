@@ -1,0 +1,31 @@
+body{
+background-color: grey;
+color: rgb(252, 184, 59);
+}
+#show_sketch{
+float: right;
+}
+canvas{
+border: 5px solid black;
+border-radius: 20px;
+animation-name: canvasanimation;
+animation-duration: 5s;
+animation-iteration-count: infinite;
+margin-top: 30px;
+}
+@keyframes canvasanimation{
+from{
+    box-shadow: 1px 1px 38px cornsilk;
+}
+to{
+    box-shadow: 1px 1px 38px black;
+}
+}
+#label{
+padding-top: 10px;
+font-size: 30px;
+}
+#confidence{
+    padding-top: 10px;
+    font-size: 30px;
+    }
